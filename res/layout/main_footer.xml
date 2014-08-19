@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:id="@+id/main_linearlayout_footer"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	android:background="@drawable/widget_bar_bg_n">
+	<RadioButton 
+		android:id="@+id/main_footbar_news"
+		style="@style/main_footbar_radio"
+		android:drawableTop="@drawable/widget_bar_news"/>
+	<ImageView
+		style="@style/main_footbar_cutline"
+		android:src="@drawable/widget_bar_cut_off"
+		android:contentDescription="@string/app_name" />
+
+	<RadioButton
+	    android:id="@+id/main_footbar_video"
+	    style="@style/main_footbar_radio"
+	    android:drawableTop="@drawable/widget_bar_question" />
+
+	<ImageView
+		style="@style/main_footbar_cutline"
+		android:src="@drawable/widget_bar_cut_off"
+		android:contentDescription="@string/app_name" />
+
+	<RadioButton
+	    android:id="@+id/main_footbar_report"
+	    style="@style/main_footbar_radio"
+	    android:drawableTop="@drawable/widget_bar_tweet" />
+
+	<ImageView
+		style="@style/main_footbar_cutline"
+		android:src="@drawable/widget_bar_cut_off"
+		android:contentDescription="@string/app_name" />
+
+	<RadioButton
+	    android:id="@+id/main_footbar_paper"
+	    style="@style/main_footbar_radio"
+	    android:drawableTop="@drawable/widget_bar_active" />
+
+	<ImageView
+		style="@style/main_footbar_cutline"
+		android:src="@drawable/widget_bar_cut_off"
+		android:contentDescription="@string/app_name" />
+	
+	<RadioButton
+		android:id="@+id/main_footbar_setting"
+		style="@style/main_footbar_radio"
+		android:drawableTop="@drawable/widget_bar_more"/>
+</LinearLayout>

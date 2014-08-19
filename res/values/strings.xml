@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IFIE</string>
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_picshow">显示图片</string>
+    <string name="main_menu_picnoshow">隐藏图片</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_setting">系统设置</string>
+    <string name="main_menu_exit">退出程序</string>
+    <string name="frame_title_news">新闻动态</string>
+    <string name="frame_title_news_recommend">推荐阅读</string>
+    <string name="frame_title_question_ask">问答</string>
+    <string name="frame_title_question_job">职业</string>
+    <string name="frame_title_question_site">站务</string>
+    <string name="frame_title_tweet_lastest">最新动弹</string>
+    <string name="frame_title_active_lastest">最新动态</string>
+    <string name="frame_title_active_atme">我</string>
+    <string name="frame_title_active_comment">评论</string>
+    <string name="frame_title_active_myself">我自己</string>
+    <string name="frame_title_active_message">留言</string>
+    <string name="footbar_refresh">刷新</string>
+    <string name="footbar_more">更多</string>
+    <string name="footbar_loading">正在加载···</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+    <string name="news_detail_head_title">新闻</string>
+    <string name="question_detail_head_title">视频</string>
+    <string name="software_detail_head_title">软件详情</string>
+    <string name="tweet_detail_head_title">论文</string>
+    <string name="setting_head_title">更多</string>
+    <string name="no_wps">未检测到WPS Office</string>
+    <string name="download_wps">下载WPS Office</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_relativelayout_header"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/main_head_bg" >
+  	
+    <ImageView
+        android:id="@+id/main_head_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/frame_logo_news"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/main_head_title"
+        style="@style/main_head_title"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_toRightOf="@id/main_head_logo"
+        android:text="@string/frame_title_news"
+        android:visibility="gone" />
+	
+   	<ProgressBar 
+		android:id="@+id/main_head_progress" 
+		style="@style/loading_small"
+		android:layout_toRightOf="@id/main_head_title"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="5.0dip"
+		android:visibility="gone"/>
+    
+    <ImageButton
+    	android:id="@+id/main_head_search"
+  		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="8dip"
+		android:background="@drawable/frame_icon_search"
+		android:contentDescription="@string/app_name" />
+</RelativeLayout>

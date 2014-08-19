@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <Preference 
+	        android:layout="@layout/preference" 
+	        android:title="关于我们" 
+	        android:key="about" 
+	        android:summary=""/>
+        <Preference 
+	        android:layout="@layout/preference" 
+	        android:title="联系我们" 
+	        android:key="contact" 
+	        android:summary=""/>
+        <Preference 
+	        android:layout="@layout/preference" 
+	        android:title="法律声明" 
+	        android:key="law" 
+	        android:summary=""/>
+        
+</PreferenceScreen>

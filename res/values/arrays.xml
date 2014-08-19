@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="head_titles">
+        <item>新闻动态</item>
+        <item>视频</item>
+        <item>报告</item>
+        <item>论文</item>
+        <item>更多</item>
+    </string-array>
+    
+    <string-array name="more_items">
+        <item>关于我们</item>
+        <item>联系我们</item>
+        <item>法律声明</item>
+    </string-array>
+	
+</resources>
